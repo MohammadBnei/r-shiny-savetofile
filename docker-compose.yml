@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  babajoun:
+    build:
+      context: lexique
+    volumes: 
+      - ./lexique/:/app/
+    ports:
+      - 3838:3838
+    stdin_open: true

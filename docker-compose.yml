@@ -3,7 +3,7 @@ version: '3.4'
 services:
   babajoun:
     build:
-      context: lexique
+      context: app
     volumes: 
       - ./app/:/app/
     ports:
